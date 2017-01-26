@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Written by LeDucAnh - 14/1/2017-->
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Quan/Desktop/NgonNguDanhDauVanBan/Exercises/Tuan_05/Baitap_2.xsl"?> 
+<orderList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OrderList.xsd">
+	<!--1st Order-->
+	<order>
+		<company>
+			<!--name of Company makes Order-->
+			<nameCo>P&amp;G Limited</nameCo>
+			<!--address of Company makes Orders-->
+			<addressCo>số 6 Nguyễn Văn Tráng, Q1, TPHCM</addressCo>
+			<!--logo of Company makes Orders-->
+			<logoCo>logo</logoCo>
+		</company>
+		<!--information of customer makes Order-->
+		<customer>
+			<!--last name and first name of customer makes Orders-->
+			<lastName>Nguyen</lastName>
+			<firstName>Huy</firstName>
+			<!--address of customer makes Orders-->
+			<addressCus>Dam Sen Water Park</addressCus>
+			<!--email Yahoo! of customer (ex: abc123@yahoo.com)-->
+			<emailCus>Huy@yahoo.com</emailCus>
+		</customer>
+		<!--The day customer makes Orders: yyyy-mm-dd (ex: 2017-01-14 means Year is 2017, Month is 01, and Day is 14)-->
+		<dateOrder>2017-01-14</dateOrder>
+		<dateReceive>
+			<noExactlyDay/>
+		</dateReceive>
+		<item>
+			<id>MH001</id>
+			<nameItem>Mat hang 1</nameItem>
+			<price currency="VND">23000000</price>
+			<quantity>2</quantity>
+		</item>
+	</order>
+	<!--2nd Order-->
+	<order>
+		<company>
+			<!--name of Company makes Order-->
+			<nameCo>P&amp;G Limited</nameCo>
+			<!--address of Company makes Orders-->
+			<addressCo>số 6 Nguyễn Văn Tráng, Q1, TPHCM</addressCo>
+			<!--logo of Company makes Orders-->
+			<logoCo>logo</logoCo>
+		</company>
+		<!--information of customer makes Order-->
+		<customer>
+			<!--last name and first name of customer makes Orders-->
+			<lastName>Tran</lastName>
+			<firstName>Hai</firstName>
+			<!--address of customer makes Orders-->
+			<addressCus>Dam Sen Water Park</addressCus>
+			<!--email Yahoo! of customer (ex: abc123@yahoo.com)-->
+			<emailCus>Hai_Tran@yahoo.com</emailCus>
+		</customer>
+		<!--The day customer makes Orders: yyyy-mm-dd (ex: 2017-01-14 means Year is 2017, Month is 01, and Day is 14)-->
+		<dateOrder>2017-01-16</dateOrder>
+		<dateReceive>
+			<exactlyDay>2017-01-15</exactlyDay>
+		</dateReceive>
+		<item>
+			<id>MH001</id>
+			<nameItem>Mat hang 1</nameItem>
+			<price currency="USD">199</price>
+			<quantity>2</quantity>
+		</item>
+	</order>
+	<!--Edited by LeDucAnh 16/1/2017
+	-Add 3nd,4th Order-->
+	<!--3nd Order-->
+	<order>
+		<company>
+			<!--name of Company makes Order-->
+			<nameCo>P&amp;G Limited</nameCo>
+			<!--address of Company makes Orders-->
+			<addressCo>số 6 Nguyễn Văn Tráng, Q1, TPHCM</addressCo>
+			<!--logo of Company makes Orders-->
+			<logoCo>logo</logoCo>
+		</company>
+		<!--information of customer makes Order-->
+		<customer>
+			<!--last name and first name of customer makes Orders-->
+			<lastName>Pham</lastName>
+			<firstName>Phong</firstName>
+			<!--address of customer makes Orders-->
+			<addressCus>Dam Sen Water Park</addressCus>
+			<!--email Yahoo! of customer (ex: abc123@yahoo.com)-->
+			<emailCus>PhongPham@yahoo.com</emailCus>
+		</customer>
+		<!--The day customer makes Orders: yyyy-mm-dd (ex: 2017-01-14 means Year is 2017, Month is 01, and Day is 14)-->
+		<dateOrder>2017-01-17</dateOrder>
+		<dateReceive>
+			<exactlyDay>2017-01-19</exactlyDay>
+		</dateReceive>
+		<item>
+			<id>MH002</id>
+			<nameItem>Mat hang 2</nameItem>
+			<price currency="VND">4500000</price>
+			<quantity>2</quantity>
+		</item>
+	</order>
+	<!--4th Order-->
+	<order>
+		<company>
+			<!--name of Company makes Order-->
+			<nameCo>P&amp;G Limited</nameCo>
+			<!--address of Company makes Orders-->
+			<addressCo>số 6 Nguyễn Văn Tráng, Q1, TPHCM</addressCo>
+			<!--logo of Company makes Orders-->
+			<logoCo>logo</logoCo>
+		</company>
+		<!--information of customer makes Order-->
+		<customer>
+			<!--last name and first name of customer makes Orders-->
+			<lastName>Huynh</lastName>
+			<firstName>Quan</firstName>
+			<!--address of customer makes Orders-->
+			<addressCus>Dam Sen Water Park</addressCus>
+			<!--email Yahoo! of customer (ex: abc123@yahoo.com)-->
+			<emailCus>QuanHuynh@yahoo.com</emailCus>
+		</customer>
+		<!--The day customer makes Orders: yyyy-mm-dd (ex: 2017-01-14 means Year is 2017, Month is 01, and Day is 14)-->
+		<dateOrder>2017-01-18</dateOrder>
+		<dateReceive>
+			<exactlyDay>2017-01-20</exactlyDay>
+		</dateReceive>
+		<item>
+			<id>MH001</id>
+			<nameItem>Mat hang 1</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH002</id>
+			<nameItem>Mat hang 2</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH003</id>
+			<nameItem>Mat hang 3</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH004</id>
+			<nameItem>Mat hang 4</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH005</id>
+			<nameItem>Mat hang 5</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH006</id>
+			<nameItem>Mat hang 6</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH007</id>
+			<nameItem>Mat hang 7</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH008</id>
+			<nameItem>Mat hang 8</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH009</id>
+			<nameItem>Mat hang 9</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+		<item>
+			<id>MH010</id>
+			<nameItem>Mat hang 10</nameItem>
+			<price currency="VND">310000</price>
+			<quantity>2</quantity>
+		</item>
+	</order>
+</orderList>
