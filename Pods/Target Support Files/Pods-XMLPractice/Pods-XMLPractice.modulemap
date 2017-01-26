@@ -1,0 +1,6 @@
+framework module Pods_XMLPractice {
+  umbrella header "Pods-XMLPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
